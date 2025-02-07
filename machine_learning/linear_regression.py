@@ -31,5 +31,6 @@ class LinearRegressionModel:
         plt.xlabel('Steps')
         plt.ylabel('Calories Burned')
         plt.title("Linear Regression Model")
+        plt.savefig("output_data/linear_regression.png")
         plt.show()
 

@@ -23,5 +23,6 @@ class KMeansClustering:
         plt.title("K-Means Clustering of Walking Habits")
         plt.xlabel("Steps")
         plt.ylabel("Calories Burned")
+        plt.savefig("output_data/k_means.png")
         plt.show()
     

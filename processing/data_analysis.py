@@ -18,6 +18,7 @@ class DataAnalyser:
         plt.xlabel("Date")
         plt.ylabel("Steps")
         plt.grid()
+        plt.savefig("output_data/steps_over_time.png")
         plt.show()
     
     def plot_calories_burned_vs_steps(self):
@@ -28,6 +29,7 @@ class DataAnalyser:
         plt.xlabel("Steps")
         plt.ylabel("Calories Burned")
         plt.grid()
+        plt.savefig("output_data/calories_burned_vs_steps.png")
         plt.show()
 
         # Drop non-numeric columns before correlation calculation
@@ -37,6 +39,7 @@ class DataAnalyser:
         plt.figure(figsize=(6, 4))
         sns.heatmap(numeric_df.corr(), annot=True, cmap="coolwarm")
         plt.title("Correlation Matrix")
+        plt.savefig("output_data/correlation_heatmap.png")
         plt.show()
 
 
@@ -51,4 +54,5 @@ class DataAnalyser:
         plt.figure(figsize=(10, 5))
         sns.boxplot(x=self.df["steps"])
         plt.title("Outlier Detection in Step Count")
+        plt.savefig("output_data/outlier_detection.png")
         plt.show()
