@@ -1,0 +1,5 @@
+1- You can see the output figures and graphs and the statistics results in the folder: output_data
+
+2- Run the project yourself:
+- you have to download the requirements for the project by running the command line: pip install -r requirements.txt
+- then you can run project to see the statistics and ML models live by the command line: python main.py  

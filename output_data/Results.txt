@@ -1,0 +1,19 @@
+Outliers in Step Count:
+
+     date  	 steps  	calories_burned   distance    unit   z_score
+     2024-03-09   9692          192.976   	  6.798692    km     2.826197
+     2024-04-06  18481          804.120  	  12.380724   km     7.224054
+
+MAE: 13.909582223012825
+
+MSE: 350.9665144966243
+
+R2: 0.27983187950434896
+
+KNN Accuracy: 1.0
+
+T-Statistic: 3.2395976280227647, 
+
+P-Value: 0.0016302144685313418
+
+Significant difference: More steps lead to more calories burned.
