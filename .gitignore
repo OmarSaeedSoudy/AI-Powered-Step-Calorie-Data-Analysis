@@ -1,0 +1,4 @@
+/venv
+.venv
+.machine_learning/__pycache__
+.processing/__pycache__
